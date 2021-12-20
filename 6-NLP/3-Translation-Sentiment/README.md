@@ -2,7 +2,7 @@
 
 In the previous lessons you learned how to build a basic bot using `TextBlob`, a library that embeds ML behind-the-scenes to perform basic NLP tasks such as noun phrase extraction. Another important challenge in computational linguistics is accurate _translation_ of a sentence from one spoken or written language to another.
 
-## [Pre-lecture quiz](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/35/)
+## [Pre-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/35/)
 
 Translation is a very hard problem compounded by the fact that there are thousands of languages and each can have very different grammar rules. One approach is to convert the formal grammar rules for one language, such as English, into a non-language dependent structure, and then translate it by converting back to another language. This approach means that you would take the following steps:
 
@@ -71,7 +71,7 @@ print(blob.translate(to="fr"))
 
 It can be argued that TextBlob's translation is far more exact, in fact, than the 1932 French translation of the book by V. Leconte and Ch. Pressoir:
 
-"C'est une vérité universelle qu'un celibataire pourvu d'une belle fortune doit avoir envie de se marier, et, si peu que l'on sache de son sentiment à cet egard, lorsqu'il arrive dans une nouvelle residence, cette idée est si bien fixée dans l'esprit de ses voisins qu'ils le considèrent sur-le-champ comme la propriété légitime de l'une ou l'autre de leurs filles."
+"C'est une vérité universelle qu'un célibataire pourvu d'une belle fortune doit avoir envie de se marier, et, si peu que l'on sache de son sentiment à cet egard, lorsqu'il arrive dans une nouvelle résidence, cette idée est si bien fixée dans l'esprit de ses voisins qu'ils le considèrent sur-le-champ comme la propriété légitime de l'une ou l'autre de leurs filles."
 
 In this case, the translation informed by ML does a better job than the human translator who is unnecessarily putting words in the original author's mouth for 'clarity'.
 
@@ -103,7 +103,7 @@ Sentiment is measured in with a *polarity* of -1 to 1, meaning -1 is the most ne
 
 Take another look at Jane Austen's *Pride and Prejudice*. The text is available here at [Project Gutenberg](https://www.gutenberg.org/files/1342/1342-h/1342-h.htm). The sample below shows a short program which analyses the sentiment of first and last sentences from the book and display its sentiment polarity and subjectivity/objectivity score.
 
-You should us the `TextBlob` library (described above) to determine `sentiment` (you do not have to write your own sentiment calculator) in the following task.
+You should use the `TextBlob` library (described above) to determine `sentiment` (you do not have to write your own sentiment calculator) in the following task.
 
 ```python
 from textblob import TextBlob
@@ -176,7 +176,7 @@ Here is a sample [solution](solution/notebook.ipynb).
 
 Can you make Marvin even better by extracting other features from the user input?
 
-## [Post-lecture quiz](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/36/)
+## [Post-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/36/)
 
 ## Review & Self Study
 

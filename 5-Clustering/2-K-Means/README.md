@@ -4,7 +4,7 @@
 
 > 🎥 Click the image above for a video: Andrew Ng explains clustering
 
-## [Pre-lecture quiz](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/29/)
+## [Pre-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/29/)
 
 In this lesson, you will learn how to create clusters using Scikit-learn and the Nigerian music dataset you imported earlier. We will cover the basics of K-Means for Clustering. Keep in mind that, as you learned in the earlier lesson, there are many ways to work with clusters and the method you use depends on your data. We will try K-Means as it's the most common clustering technique. Let's get started!
 
@@ -30,7 +30,7 @@ The K-Means clustering process [executes in a three-step process](https://scikit
 1. The algorithm selects k-number of center points by sampling from the dataset. After this, it loops:
     1. It assigns each sample to the nearest centroid.
     2. It creates new centroids by taking the mean value of all of the samples assigned to the previous centroids.
-    3. Then, it calculates the difference between the new and old centroids and repeats until the centroids are stablized.
+    3. Then, it calculates the difference between the new and old centroids and repeats until the centroids are stabilized.
 
 One drawback of using K-Means includes the fact that you will need to establish 'k', that is the number of centroids. Fortunately the  'elbow method' helps to estimate a good starting value for 'k'. You'll try it in a minute.
 
@@ -238,13 +238,13 @@ Spend some time with this notebook, tweaking parameters. Can you improve the acc
 
 Hint: Try to scale your data. There's commented code in the notebook that adds standard scaling to make the data columns resemble each other more closely in terms of range. You'll find that while the silhouette score goes down, the 'kink' in the elbow graph smooths out. This is because leaving the data unscaled allows data with less variance to carry more weight. Read a bit more on this problem [here](https://stats.stackexchange.com/questions/21222/are-mean-normalization-and-feature-scaling-needed-for-k-means-clustering/21226#21226).
 
-## [Post-lecture quiz](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/30/)
+## [Post-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/30/)
 
 ## Review & Self Study
 
 Take a look at a K-Means Simulator [such as this one](https://user.ceng.metu.edu.tr/~akifakkus/courses/ceng574/k-means/). You can use this tool to visualize sample data points and determine its centroids. You can edit the data's randomness, numbers of clusters and numbers of centroids. Does this help you get an idea of how the data can be grouped?
 
-Also, take a look at [this handout on k-means](https://stanford.edu/~cpiech/cs221/handouts/kmeans.html) from Stanford.
+Also, take a look at [this handout on K-Means](https://stanford.edu/~cpiech/cs221/handouts/kmeans.html) from Stanford.
 
 ## Assignment
 

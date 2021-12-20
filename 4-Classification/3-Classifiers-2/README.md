@@ -2,7 +2,7 @@
 
 In this second classification lesson, you will explore more ways to classify numeric data. You will also learn about the ramifications for choosing one classifier over the other.
 
-## [Pre-lecture quiz](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/23/)
+## [Pre-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/23/)
 
 ### Prerequisite
 
@@ -176,7 +176,7 @@ Let's try for a little better accuracy with a Support Vector Classifier.
 Let's follow the path to the very end, even though the previous test was quite good. Let's try some 'Ensemble Classifiers, specifically Random Forest and AdaBoost:
 
 ```python
-'RFST': RandomForestClassifier(n_estimators=100),
+  'RFST': RandomForestClassifier(n_estimators=100),
   'ADA': AdaBoostClassifier(n_estimators=100)
 ```
 
@@ -224,7 +224,7 @@ This method of Machine Learning "combines the predictions of several base estima
 
 Each of these techniques has a large number of parameters that you can tweak. Research each one's default parameters and think about what tweaking these parameters would mean for the model's quality.
 
-## [Post-lecture quiz](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/24/)
+## [Post-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/24/)
 
 ## Review & Self Study
 

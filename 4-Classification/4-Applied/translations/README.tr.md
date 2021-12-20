@@ -4,11 +4,11 @@ Bu derste, önceki derslerde öğrendiğiniz bazı yöntemleri kullanarak, bu se
 
 Makine öğreniminin en faydalı pratik kullanımlarından biri, önerici/tavsiyeci sistemler oluşturmaktır ve bu yöndeki ilk adımınızı bugün atabilirsiniz!
 
-[![Önerici Sistemler Tanıtımı](https://img.youtube.com/vi/giIXNoiqO_U/0.jpg)](https://youtu.be/giIXNoiqO_U "Recommendation Systems Introduction")
+[![Önerici Sistemler Tanıtımı](https://img.youtube.com/vi/17wdM9AHMfg/0.jpg)](https://youtu.be/17wdM9AHMfg "Applied ML")
 
-> :movie_camera: Video için yukarıdaki fotoğrafa tıklayın: Andrew Ng introduces recommendation system design (Andrew Ng önerici sistem tasarımını tanıtıyor)
+> :movie_camera: Video için yukarıdaki fotoğrafa tıklayın
 
-## [Ders öncesi kısa sınavı](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/25/?loc=tr)
+## [Ders öncesi kısa sınavı](https://white-water-09ec41f0f.azurestaticapps.net/quiz/25/?loc=tr)
 
 Bu derste şunları öğreneceksiniz:
 
@@ -321,7 +321,7 @@ Tebrikler, birkaç değişkenle bir 'önerici' web uygulaması oluşturdunuz! Bu
 
 Web uygulamanız çok minimal, bu yüzden [ingredient_indexes](../../data/ingredient_indexes.csv) verisinden malzemeleri ve indexlerini kullanarak web uygulamanızı oluşturmaya devam edin. Verilen bir ulusal yemeği yapmak için hangi tat birleşimleri işe yarıyor?
 
-## [Ders sonrası kısa sınavı](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/26/?loc=tr)
+## [Ders sonrası kısa sınavı](https://white-water-09ec41f0f.azurestaticapps.net/quiz/26/?loc=tr)
 
 ## Gözden Geçirme & Kendi Kendine Çalışma
 

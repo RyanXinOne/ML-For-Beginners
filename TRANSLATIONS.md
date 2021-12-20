@@ -1,7 +1,6 @@
 # Contribute by translating lessons
 
 We welcome translations for the lessons in this curriculum!
-
 ## Guidelines
 
 There are folders in each lesson folder and lesson introduction folder which contain the translated markdown files.
@@ -18,6 +17,8 @@ where _[language]_ is a two letter language abbreviation following the ISO 639-1
 
 Similar to Readme's, please translate the assignments as well.
 
+> Important: when translating text in this repo, please ensure that you do not use machine translation. We will verify translations via the community, so please only volunteer for translations in languages where you are proficient.
+
 **Quizzes**
 
 1. Add your translation to the quiz-app by adding a file here: https://github.com/microsoft/ML-For-Beginners/tree/main/quiz-app/src/assets/translations, with proper naming convention (en.json, fr.json). **Please don't localize the words 'true' or 'false' however. thanks!**
@@ -26,7 +27,7 @@ Similar to Readme's, please translate the assignments as well.
 
 3. Edit the quiz-app's [translations index.js file](https://github.com/microsoft/ML-For-Beginners/blob/main/quiz-app/src/assets/translations/index.js) to add your language.
 
-4. Finally, edit ALL the quiz links in your translated README.md files to point directly to your translated quiz: https://https://jolly-sea-0a877260f.azurestaticapps.net/quiz/1 becomes https://jolly-sea-0a877260f.azurestaticapps.net/quiz/1?loc=id
+4. Finally, edit ALL the quiz links in your translated README.md files to point directly to your translated quiz: https://white-water-09ec41f0f.azurestaticapps.net/quiz/1 becomes https://white-water-09ec41f0f.azurestaticapps.net/quiz/1?loc=id
 
 **THANK YOU**
 

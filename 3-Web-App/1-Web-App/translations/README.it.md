@@ -11,7 +11,7 @@ Si continuerà a utilizzare il notebook per pulire i dati e addestrare il modell
 
 Per fare ciò, è necessario creare un'app Web utilizzando Flask.
 
-## [Quiz Pre-Lezione](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/17/)
+## [Quiz pre-lezione](https://white-water-09ec41f0f.azurestaticapps.net/quiz/17/?loc=it)
 
 ## Costruire un'app
 
@@ -281,7 +281,7 @@ Ora si può creare un'app Flask per chiamare il modello e restituire risultati s
 
    app = Flask(__name__)
 
-   model = pickle.load(open("../ufo-model.pkl", "rb"))
+   model = pickle.load(open("./ufo-model.pkl", "rb"))
 
 
    @app.route("/")
@@ -334,7 +334,7 @@ In un ambiente professionale, si può vedere quanto sia necessaria una buona com
 
 Invece di lavorare su un notebook e importare il modello nell'app Flask, si può addestrare il modello direttamente nell'app Flask! Provare a convertire il codice Python nel notebook, magari dopo che i dati sono stati puliti, per addestrare il modello dall'interno dell'app su un percorso chiamato `/train`. Quali sono i pro e i contro nel seguire questo metodo?
 
-## [Quiz post-lezione](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/18/)
+## [Quiz post-lezione](https://white-water-09ec41f0f.azurestaticapps.net/quiz/18/?loc=it)
 
 ## Revisione e Auto Apprendimento
 

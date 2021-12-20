@@ -3,7 +3,7 @@
 ![Summary of reinforcement in machine learning in a sketchnote](../../sketchnotes/ml-reinforcement.png)
 > Sketchnote by [Tomomi Imura](https://www.twitter.com/girlie_mac)
 
-Reinforcement learning involves three important concepts: the agent, some states, and a set of actions per state. By executing an action in a specified state, the agent is given a reward. Again imagine the computer game Super Mario. You are Mario, you are in a game level, standing next to a cliff edge. Above you is a coin. You being Mario, in a game level, at a specific position ... that's your state. Moving one step to the right (an action) will take you over the edge, and that would give you a low numerical score. However, pressing the jump button would let score a point and you would stay alive. That's a positive outcome and that should award you a positive numerical score.
+Reinforcement learning involves three important concepts: the agent, some states, and a set of actions per state. By executing an action in a specified state, the agent is given a reward. Again imagine the computer game Super Mario. You are Mario, you are in a game level, standing next to a cliff edge. Above you is a coin. You being Mario, in a game level, at a specific position ... that's your state. Moving one step to the right (an action) will take you over the edge, and that would give you a low numerical score. However, pressing the jump button would let you score a point and you would stay alive. That's a positive outcome and that should award you a positive numerical score.
 
 By using reinforcement learning and a simulator (the game), you can learn how to play the game to maximize the reward which is staying alive and scoring as many points as possible.
 
@@ -11,7 +11,7 @@ By using reinforcement learning and a simulator (the game), you can learn how to
 
 > 🎥 Click the image above to hear Dmitry discuss Reinforcement Learning
 
-## [Pre-lecture quiz](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/45/)
+## [Pre-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/45/)
 
 ## Prerequisites and Setup
 
@@ -192,7 +192,7 @@ Here γ is the so-called **discount factor** that determines to which extent you
 
 ## Learning Algorithm
 
-Given the equation above, we can now write pseudo-code for our leaning algorithm:
+Given the equation above, we can now write pseudo-code for our learning algorithm:
 
 * Initialize Q-Table Q with equal numbers for all states and actions
 * Set learning rate α ← 1
@@ -280,7 +280,7 @@ walk(m,qpolicy_strict)
 
 > **Task 1:** Modify the `walk` function to limit the maximum length of path by a certain number of steps (say, 100), and watch the code above return this value from time to time.
 
-> **Task 2:** Modify the `walk` function so that it does not go back to the places where is has already been previously. This will prevent `walk` from looping, however, the agent can still end up being "trapped" in a location from which it is unable to escape.
+> **Task 2:** Modify the `walk` function so that it does not go back to the places where it has already been previously. This will prevent `walk` from looping, however, the agent can still end up being "trapped" in a location from which it is unable to escape.
 
 ## Navigation
 
@@ -314,6 +314,6 @@ The learnings can be summarized as:
 
 Overall, it is important to remember that the success and quality of the learning process significantly depends on parameters, such as learning rate, learning rate decay, and discount factor. Those are often called **hyperparameters**, to distinguish them from **parameters**, which we optimize during training (for example, Q-Table coefficients). The process of finding the best hyperparameter values is called **hyperparameter optimization**, and it deserves a separate topic.
 
-## [Post-lecture quiz](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/46/)
+## [Post-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/46/)
 
 ## Assignment [A More Realistic World](assignment.md)

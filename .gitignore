@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+dist 
+
 # User-specific files
 *.rsuser
 *.suo
@@ -13,7 +15,7 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
-# Mono auto generated files
+# Mono auto-generated files
 mono_crash.*
 
 # Build results
@@ -38,7 +40,7 @@ bld/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
-# Visual Studio 2017 auto generated files
+# Visual Studio 2017 auto-generated files
 Generated\ Files/
 
 # MSTest test Results

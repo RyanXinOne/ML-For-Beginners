@@ -1,8 +1,8 @@
 # CartPole Skating
 
 The problem we have been solving in the previous lesson might seem like a toy problem, not really applicable for real life scenarios. This is not the case, because many real world problems also share this scenario - including playing Chess or Go. They are similar, because we also have a board with given rules and a **discrete state**.
-
-## [Pre-lecture quiz](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/47/)
+https://white-water-09ec41f0f.azurestaticapps.net/
+## [Pre-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/47/)
 
 ## Introduction
 
@@ -121,7 +121,7 @@ To see how the environment works, let's run a short simulation for 100 steps. At
 
 ## State discretization
 
-In Q=Learning, we need to build Q-Table that defines what to do at each state. To be able to do this, we need state to be **discreet**, more precisely, it should contain finite number of discrete values. Thus, we need somehow to **discretize** our observations, mapping them to  a finite set of states.
+In Q-Learning, we need to build Q-Table that defines what to do at each state. To be able to do this, we need state to be **discreet**, more precisely, it should contain finite number of discrete values. Thus, we need somehow to **discretize** our observations, mapping them to  a finite set of states.
 
 There are a few ways we can do this:
 
@@ -329,7 +329,7 @@ You should see something like this:
 
 > **Task 4**: Here we were not selecting the best action on each step, but rather sampling with corresponding probability distribution. Would it make more sense to always select the best action, with the highest Q-Table value? This can be done by using `np.argmax` function to find out the action number corresponding to highers Q-Table value. Implement this strategy and see if it improves the balancing.
 
-## [Post-lecture quiz](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/48/)
+## [Post-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/48/)
 
 ## Assignment: [Train a Mountain Car](assignment.md)
 
